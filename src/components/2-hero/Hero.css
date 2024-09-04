@@ -1,0 +1,64 @@
+ 
+ section.hero{
+  margin-top: 3rem;
+ }
+
+ /*left section*/
+section.hero .parent-avatar.flex{
+  align-items: end;
+  gap: 0.5rem;
+} 
+ section.hero .left-section{
+  flex-grow: 1;
+}
+section.hero .icon-verified{
+  color:  var(--blue);
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+section.hero .avatar{
+  width: 10%;
+  border-radius: 50%;
+  border: 1px solid orangered;
+  padding: 2px;
+  box-shadow: 2px 2px 40px white inset;
+}
+section.hero .icon-verified_user{
+  color: var(--blue);
+}
+
+/*right section*/
+
+section.hero h1.title{
+  font-size: 2rem;
+line-height: 3.3rem;
+color: var(--title);
+margin: 20px 0;
+}
+section.hero p.subtitle{
+  color: var(--subtitle);
+  font-size: .9rem;
+  line-height: 2rem;
+  margin-bottom: 32px;
+}
+section.hero .all-icons{
+  font-size: 1.3rem;
+  gap: 1.5rem;
+  color: rgb(161 161 170);
+
+}
+section.hero .all-icons .icon:hover{
+font-size: 1.4rem;
+transition: 1.3s;
+cursor: pointer;
+color: antiquewhite;
+}
+
+.right-section img{
+    width: 300px;
+
+  
+}
+
+
+
